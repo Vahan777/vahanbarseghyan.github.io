@@ -1,0 +1,63 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+@media (min-width: 740px) {
+    .content-gallery1{
+        display: block;
+    }
+    .content-gallery2{
+        display: block;
+    }
+}
+
+.top-nav-collapse {
+  background-color: #82b1ff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+}
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.content-gallery{
+    display: -webkit-box;
+}
