@@ -1,0 +1,29 @@
+/*CSS Styles*/
+body{
+    background: url('../images/portfolio-background.jpg');
+    background-size: cover;position: relative;
+}
+.speech {
+    border: 1px solid #DDD; 
+    width: 260px; 
+    padding: 0;
+    margin: 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+    top: 250px;
+}
+.speech input {
+    border: 0;
+    width: 240px; 
+    display: inline-block; 
+    height: 30px;
+}
+.speech img {
+    float: right;
+    width: 20px;
+    height: 30px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
